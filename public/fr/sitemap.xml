@@ -18,16 +18,16 @@
   </url>
   
   <url>
-    <loc>/fr/basics/</loc>
+    <loc>/fr/docs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/"
+                href="/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/"
+                href="/fr/docs/"
                 />
   </url>
   
@@ -61,16 +61,16 @@
   </url>
   
   <url>
-    <loc>/fr/basics/requirements/</loc>
+    <loc>/fr/docs/requirements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/requirements/"
+                href="/docs/requirements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/requirements/"
+                href="/fr/docs/requirements/"
                 />
   </url>
   
@@ -105,46 +105,46 @@
   </url>
   
   <url>
-    <loc>/fr/basics/installation/</loc>
+    <loc>/fr/docs/installation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/installation/"
+                href="/docs/installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/installation/"
+                href="/fr/docs/installation/"
                 />
   </url>
   
   <url>
-    <loc>/fr/basics/configuration/</loc>
+    <loc>/fr/docs/configuration/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/configuration/"
+                href="/docs/configuration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/configuration/"
+                href="/fr/docs/configuration/"
                 />
   </url>
   
   <url>
-    <loc>/fr/basics/style-customization/</loc>
+    <loc>/fr/docs/style-customization/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/style-customization/"
+                href="/docs/style-customization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/style-customization/"
+                href="/fr/docs/style-customization/"
                 />
   </url>
   

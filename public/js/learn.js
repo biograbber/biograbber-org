@@ -240,11 +240,11 @@ jQuery(document).ready(function() {
 
     var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
     if (!touchsupport){ // browser doesn't support touch
-        $('#toc-menu').hover(function() {
+        $('#toc-menu').click(function() {
             $('.progress').stop(true, false, true).fadeToggle(100);
         });
 
-        $('.progress').hover(function() {
+        $('.progress').click(function() {
             $('.progress').stop(true, false, true).fadeToggle(100);
         });
     }

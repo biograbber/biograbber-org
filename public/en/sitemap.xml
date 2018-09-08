@@ -7,6 +7,28 @@
   </url>
   
   <url>
+    <loc>/install/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+  </url>
+  
+  <url>
     <loc>/cont/pages/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -22,17 +44,11 @@
   </url>
   
   <url>
-    <loc>/basics/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/basics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/basics/"
-                />
+    <loc>/changelog/</loc>
+  </url>
+  
+  <url>
+    <loc>/roadmap/</loc>
   </url>
   
   <url>
@@ -65,16 +81,16 @@
   </url>
   
   <url>
-    <loc>/basics/requirements/</loc>
+    <loc>/docs/requirements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/requirements/"
+                href="/fr/docs/requirements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/requirements/"
+                href="/docs/requirements/"
                 />
   </url>
   
@@ -109,31 +125,31 @@
   </url>
   
   <url>
-    <loc>/basics/installation/</loc>
+    <loc>/docs/installation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/installation/"
+                href="/fr/docs/installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/installation/"
+                href="/docs/installation/"
                 />
   </url>
   
   <url>
-    <loc>/basics/configuration/</loc>
+    <loc>/docs/configuration/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/configuration/"
+                href="/fr/docs/configuration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/configuration/"
+                href="/docs/configuration/"
                 />
   </url>
   
@@ -153,17 +169,17 @@
   </url>
   
   <url>
-    <loc>/basics/style-customization/</loc>
+    <loc>/docs/style-customization/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/basics/style-customization/"
+                href="/fr/docs/style-customization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/basics/style-customization/"
+                href="/docs/style-customization/"
                 />
   </url>
   
@@ -197,6 +213,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="/shortcodes/attachments/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
                 />
   </url>
   
@@ -268,21 +299,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/shortcodes/expand/"
-                />
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
                 />
   </url>
   

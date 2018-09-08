@@ -6,14 +6,14 @@
 .progress ul {
   list-style: none;
   margin: 0;
-  padding: 0 5px;
+  padding: 0;
 }
 
 #TableOfContents {
-    font-size: 13px !important;
+    font-size: 16px !important;
     max-height: 85vh;
     overflow: auto;
-    padding: 15px !important;
+    padding: 0 0 15px 0 !important;
 }
 
 
@@ -22,11 +22,13 @@
 }
 
 #TableOfContents > ul > li > a   {
-  font-weight: bold; padding: 0 18px; margin: 0 2px;
+  font-weight: normal; 
+  padding: 0 18px; 
+  margin: 0 2px;
 }
 
 #TableOfContents > ul > li > ul > li > a {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #TableOfContents > ul > li > ul > li > ul > li > ul > li > ul > li  {
@@ -47,33 +49,18 @@ body {
     line-height: 1.1;
     display: inline-block;
 }
-#body a.highlight:after {
-    display: block;
-    content: "";
-    height: 1px;
-    width: 0%;
-    background-color: #0082a7; /*#CE3B2F*/
-    -webkit-transition: width 0.5s ease;
-    -moz-transition: width 0.5s ease;
-    -ms-transition: width 0.5s ease;
-    transition: width 0.5s ease;
-}
 #body a.highlight:hover:after, #body a.highlight:focus:after {
     width: 100%;
 }
 .progress {
-    position:absolute;
-    background-color: rgba(246, 246, 246, 0.97);
-    width: auto;
-    border: thin solid #ECECEC;
-    display:none;
-    z-index:200;
+  position: fixed;
+  background: white;
+  width: 800px;
+  display:none;
+  z-index:1000;
 }
 
 #toc-menu {
-  border-right: thin solid #DAD8D8 !important;
-  padding-right: 1rem !important;
-  margin-right: 0.5rem !important;
 }
 
 #sidebar-toggle-span {
@@ -250,5 +237,5 @@ figcaption h4 {
 }
 
 .is-sticky #top-bar {
-  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.1); 
+  /*box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.1); */
 }

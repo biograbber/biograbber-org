@@ -1,5 +1,5 @@
 @charset "UTF-8";
-#top-github-link, #body #breadcrumbs {
+#top-github-link, #top-toc-link, #body #breadcrumbs {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -14,25 +14,6 @@
 }
 .button:active, .button-secondary:active {
     margin: 2px 0 -2px 0;
-}
-@font-face {
-    font-family: 'Novacento Sans Wide';
-    src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot");
-    src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecentosanswide-UltraLight-webfont.woff2") format("woff2"), url("../fonts/Novecentosanswide-UltraLight-webfont.woff") format("woff"), url("../fonts/Novecentosanswide-UltraLight-webfont.ttf") format("truetype"), url("../fonts/Novecentosanswide-UltraLight-webfont.svg#novecento_sans_wideultralight") format("svg");
-    font-style: normal;
-    font-weight: 200;
-}
-@font-face {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 300;
-    src: url("../fonts/Work_Sans_300.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_300.woff") format("woff"), url("../fonts/Work_Sans_300.woff2") format("woff2"), url("../fonts/Work_Sans_300.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_300.ttf") format("truetype");
-}
-@font-face {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 500;
-    src: url("../fonts/Work_Sans_500.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_500.woff") format("woff"), url("../fonts/Work_Sans_500.woff2") format("woff2"), url("../fonts/Work_Sans_500.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_500.ttf") format("truetype");
 }
 body {
     background: #fff;
@@ -98,10 +79,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
 }
 #header-wrapper {
-    background: #8451a1;
     color: #fff;
-    text-align: center;
-    border-bottom: 4px solid #9c6fb6;
     padding: 1rem;
 }
 #header a {
@@ -117,9 +95,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 .searchbox {
     margin-top: 1rem;
     position: relative;
-    border: 1px solid #915eae;
-    background: #764890;
-    border-radius: 4px;
+    border: 1px solid #ccc;
 }
 .searchbox label {
     color: rgba(255, 255, 255, 0.8);
@@ -147,6 +123,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     padding: 0 25px 0 30px;
     margin: 0;
     font-weight: 300;
+    font-size: 15px;
 }
 .searchbox input::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.6);
@@ -169,14 +146,14 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #322A38;
+    background-color: #333333;
     position: fixed;
     top: 0;
     width: 300px;
     bottom: 0;
     left: 0;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
 }
 #sidebar a {
     color: #ccc;
@@ -272,7 +249,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 9px;
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-    background: #251f29;
+    background: #444444;
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
@@ -304,14 +281,14 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #sidebar ul li > a {
     padding: 4px 0;
+    line-height: 2rem;
 }
 #sidebar ul li.visited > a .read-icon {
     color: #9c6fb6;
     display: inline;
 }
 #sidebar ul li li {
-    padding-left: 1rem;
-    text-indent: 0.2rem;
+    text-indent: 1rem;
 }
 #main {
     background: #f7f7f7;
@@ -343,7 +320,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border: 1px solid #ccc;
 }
 #body .padding {
-    padding: 3rem 6rem;
+    padding: 0rem 6rem 3rem 6rem;
 }
 @media only all and (max-width: 59.938em) {
     #body .padding {
@@ -410,20 +387,17 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #body-inner {
     margin-bottom: 5rem;
+    max-width: 800px;
 }
 #chapter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100%;
     padding: 2rem 0;
 }
 #chapter #body-inner {
     padding-bottom: 3rem;
-    max-width: 80%;
 }
 #chapter h3 {
-    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     text-align: center;
 }
@@ -432,7 +406,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border-bottom: 4px solid #F0F2F4;
 }
 #chapter p {
-    text-align: center;
     font-size: 1.2rem;
 }
 #footer {
@@ -452,15 +425,15 @@ body {
 h2, h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
     text-rendering: optimizeLegibility;
-    color: #5e5e5e;
+    color: #444444;
     font-weight: 400;
     letter-spacing: -1px;
 }
 h1 {
     font-family: "Roboto", sans-serif;
     text-align: left;
-    text-transform: uppercase;
-    color: #222;
+    text-transform: none;
+    color: #333333;
     font-weight: 200;
 }
 blockquote {
@@ -798,7 +771,7 @@ td {
     z-index: 1000000;
     display: none;
     padding: 5px 8px;
-    font: normal normal 11px/1.5 "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font: normal normal 11px/1.5 "Roboto", sans-serif;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -984,13 +957,19 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #F6F6F6;
-    border-radius: 2px;
-    padding: 0 1rem;
+    background: #FFFFFF;
+    padding: 0;
     height: 0;
     min-height: 3rem;
+    max-width: 800px;
 }
 #top-github-link {
+    position: relative;
+    z-index: 1;
+    float: right;
+    display: block;
+}
+#top-toc-link {
     position: relative;
     z-index: 1;
     float: right;
@@ -1117,7 +1096,7 @@ pre .copy-to-clipboard:hover {
 }
 
 #sidebar #shortcuts h3 {
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: white ;
     margin-top:1rem;
     padding-left: 1rem;

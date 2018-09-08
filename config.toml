@@ -11,8 +11,9 @@ defaultContentLanguageInSubdir= false
   description = "Documentation for Hugo Learn Theme"
   author = "Mathieu Cornic"
   showVisitedLinks = false
-  disableBreadcrumb = true
   disableNextPrev = true
+  disableShortcutsTitle = true
+
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
