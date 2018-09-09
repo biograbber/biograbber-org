@@ -5,6 +5,17 @@ pre: ""
 chapter: false
 ---
 
+<table>
+<tr>
+<td> <img src="/images/capture.jpg" alt="Drawing" /> </td>
+<td> <img src="/images/capture.jpg" alt="Drawing" /> </td>
+</tr>
+<tr>
+<td> <img src="/images/capture.jpg" alt="Drawing" /> </td>
+<td> <img src="/images/capture.jpg" alt="Drawing" /> </td>
+</tr>
+</table>
+
 ## Introduction
 
 Biograbber is a free professional video capture software for standards sources of V4L2 (Video for Linux) and UVC (USB Video Class).
@@ -28,3 +39,71 @@ Nuestro desarrollo se basa en un proyecto muy conocido en la comunidad como es g
 Para la reproducción del contenido creado, utilizamos el media player MPV (https://mpv.io), que nos ofrece a través de cu C API un integración completa con nuestra aplicación.
 
 Otras tecnologías abiertas utilizadas son: SQLite,....
+
+## Features
+
+Biograbber is full of features that facilitate the capture and processing of the obtained video.
+
+Its main features are:
+
+### Multiple sources
+
+Biograbber allows the configuration of an unlimited number of V4L2 sources, for its capture simultaneously. Although our graphic interface is adapted, in order to have an application as practical as possible we have decided to limit the total number of sources captured to 16.
+
+### Content synchronization
+
+The recordings obtained for each source simultaneously can then be viewed, scanned and saved in a synchronized manner. This allows us, for example, to obtain keyframes of each of the sources in a synchronized way.
+
+### Multi-instance
+
+Multiple instances of our application can be opened simultaneously, using different configurations. For example, if we have 8 video sources, but we want to deal with them in groups of 4, we can have 2 separate instances of Biograbber, with their different configurations applied and execute them from the command line independently.
+
+### Detailed customization of each source
+
+For each source you can configure a whole set of parameters that source offers and always following the V4L2 standard. As an example:
+
+#### Device Input
+
+Most of the devices V4L2 have a single device input, but some offer 2 signals, being able to select which of the 2 we want to use. This usually occurs in devices that capture various types of sources, and Biograbber will automatically show you this settings in devices with these features.
+
+#### Camera output
+
+#### Capture resolution
+
+#### Sampling frequency (FPS)
+
+#### Compression codec
+
+#### Applicable filters
+
+#### Audio source (Standard Portaudio)
+
+#### Audio Rate, Channels, Latency
+
+#### Audio Codec
+
+#### Destination Folder
+
+Nombre genérico autoincrementable para las grabaciones de video y nombre generico autoincrementable para las capturas de imagen estáticas, asi como diferentes tipos de formato de archivo obtenibles.
+
+#### Maximum duration of the recording
+
+#### Streaming as video source
+
+### Keyframes
+
+You can obtain frames from each of video sources, in the most standard formats of the market. You can also get frames from all sources at the same time, which are synchronized. We can obtain frames, from the source itself, from the reproductions of the obtained files, even from the playback of streaming content.
+
+Obtaining these frames from the playback of a video file will automatically create a collection of keyframes, which can then be used to explore the video file more efficiently.
+
+### Integrated video playback
+
+No need of external applications to be able to play our recordings. We have integrated the media player MPV API into Biograbber. The reproduction of the recordings obtained in a synchronized way will also be done in the same way. We can also configure each player of each source to show the content with the filters and settings that we want.
+
+### Recording Archive
+
+We can track recordings obtained, and all the recordings synchronized with them, giving them also a name, a description and some labels, for their later filing and location.
+
+### Touch Responsive
+
+In order to facilitate the use of touch screens our system in touch responsive and responds to the most generic gestures of use of touch systems.
