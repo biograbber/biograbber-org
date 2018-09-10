@@ -95,18 +95,18 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 .searchbox {
     margin-top: 1rem;
     position: relative;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
 }
 .searchbox label {
     color: rgba(255, 255, 255, 0.8);
     position: absolute;
-    left: 10px;
+    left: 0px;
     top: 3px;
 }
 .searchbox span {
     color: rgba(255, 255, 255, 0.6);
     position: absolute;
-    right: 10px;
+    right: 0px;
     top: 3px;
     cursor: pointer;
 }
@@ -120,10 +120,14 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     height: 30px;
     background: transparent;
     border: 0;
-    padding: 0 25px 0 30px;
+    padding: 0 25px 0 25px;
     margin: 0;
     font-weight: 300;
     font-size: 15px;
+}
+input:focus {
+    border-color: transparent !important;
+    box-shadow: none !important;
 }
 .searchbox input::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.6);

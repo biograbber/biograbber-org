@@ -69,7 +69,7 @@
                     </span>                  
                   <span class="links">
                     {{ template "breadcrumb" dict "page" . "value" .Title }}   
-                    {{$toc := (and (not .Params.disableToc) (not .Params.chapter))}}
+                    {{$toc := (and (not .Site.Params.disableToc) (not .Params.chapter))}}
                 {{ if $toc }}
                         <i id="toc-menu" class="fa fa-chevron-down"></i>
                 {{ end }}

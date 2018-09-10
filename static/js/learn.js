@@ -129,9 +129,10 @@ jQuery(document).ready(function() {
     var ajax;
     jQuery('[data-search-input]').on('input', function() {
         var input = jQuery(this),
-            value = input.val(),
-            items = jQuery('[data-nav-id]');
+        value = input.val(),
+        items = jQuery('[data-nav-id]');
         items.removeClass('search-match');
+        $('[data-search-clear]').toggle(value.length > 0);
         if (!value.length) {
             $('ul.topics').removeClass('searched');
             items.css('display', 'block');
@@ -151,6 +152,8 @@ jQuery(document).ready(function() {
             $(".highlightable").unhighlight({ element: 'mark' })
         });
     });
+
+    
 
     $.expr[":"].contains = $.expr.createPseudo(function(arg) {
         return function( elem ) {

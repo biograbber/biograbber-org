@@ -7,18 +7,18 @@ chapter: false
 
 <table>
 <tr>
-<td> <img src="/images/capture.jpg" alt="Drawing" /> </td>
-<td> <img src="/images/capture.jpg" alt="Drawing" /> </td>
+<td> <img src="/images/capture1.jpg" alt="Drawing" /> </td>
+<td> <img src="/images/capture2.jpg" alt="Drawing" /> </td>
 </tr>
 <tr>
-<td> <img src="/images/capture.jpg" alt="Drawing" /> </td>
-<td> <img src="/images/capture.jpg" alt="Drawing" /> </td>
+<td> <img src="/images/capture3.jpg" alt="Drawing" /> </td>
+<td> <img src="/images/capture4.jpg" alt="Drawing" /> </td>
 </tr>
 </table>
 
 ## Introduction
 
-Biograbber is a free professional video capture software for standards sources of V4L2 (Video for Linux) and UVC (USB Video Class).
+Free open source professional video capture software for standards sources of V4L2 (Video for Linux) and UVC (USB Video Class).
 
 There are many free software projects supporting the development of applications capable of capturing video following the standard V4L2. However, the functional development of these projects is very limited and does not meet professional requirements.
 
