@@ -7,7 +7,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= false
 
 [params]
-  editURL = ""
+  editURL = "https://github.com/biograbber/biograbber-org/edit/master/content/"
   description = "Documentation for Hugo Learn Theme"
   author = "Mathieu Cornic"
   showVisitedLinks = false
